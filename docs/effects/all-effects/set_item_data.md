@@ -13,3 +13,5 @@ Set item data
     value: "%player_uuid%" # The value to set it to
   ...other config (eg triggers, filters, mutators, etc)
 ```
+
+**You can later reference this set data by using the following placeholder:** `%libreforge_item_data_<key>%: The data value`
